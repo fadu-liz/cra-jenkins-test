@@ -2,16 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Wrapper {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Wrapper a {
+  text-decoration: none;
+  color: #333;
 }
+
+.Wrapper h2 {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.link {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+/* .link:hover {
+  background-color: ;
+} */
 
 .App-header {
   background-color: #282c34;
